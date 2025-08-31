@@ -1,3 +1,4 @@
+<img src="./__pycache__/DomainDriftBot.jpg" alt="DomainDriftBot Image" width="300">
 
 # DomainDriftBot
 
