@@ -51,7 +51,7 @@ DomainDriftBot is a Python-based Telegram bot I developed in 2025 for domain rec
 
 ## Contact
 - YouTube Video: [Link to your video, e.g., https://youtu.be/wBUzmk0WUpE]
-- GitHub: [yourusername](https://github.com/Mani19492)
+- GitHub: [Mani19492](https://github.com/Mani19492)
 - Feedback: Comment on the video or open an issue here!
 
 ## Future Plans
