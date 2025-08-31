@@ -1,44 +1,62 @@
 DomainDriftBot
-A Telegram bot for domain reconnaissance, providing WHOIS, DNS, SSL certificate, and optional VirusTotal threat intelligence data.
-Setup
+Overview
+DomainDriftBot is a Python-based Telegram bot I developed in 2025 for domain reconnaissance and authenticity verification. It scans domains, providing detailed reports including WHOIS data, DNS records, SSL certificates, and security checks using VirusTotal and Google Safe Browsing APIs.
+Features
 
-Install Python 3.13:
+Domain Scanning: Comprehensive reconnaissance with WHOIS, DNS, and traceroute data.
+Authenticity Check: Verifies domains using VirusTotal and Google Safe Browsing.
+Error Handling: Robust fallbacks for API failures.
+Real-Time Updates: Dynamic reporting via Telegram.
 
-Download from python.org.
-Ensure python and pip are added to your PATH.
+Prerequisites
 
-
-Clone or Create the Project:
-mkdir C:\Users\spmte\Projects\bot
-cd C:\Users\spmte\Projects\bot
-
-
-Install Dependencies:
-python -m pip install -r requirements.txt
-
-
-Set Up Environment Variables:
-
-Create a .env file in the project directory:TELEGRAM_TOKEN=8240966617:AAE6o_wvrGaZEeA-DpG6t9-WRjzJgoIDxh4
-# Optional: VIRUSTOTAL_API_KEY=your_virustotal_api_key
+Python 3.8+
+Required libraries: python-telegram-bot, requests, dns.resolver, beautifulsoup4, cachetools, python-dotenv
+API Keys:
+Telegram Bot Token
+VirusTotal API Key
+Google Safe Browsing API Key
+WHOISXMLAPI Key (optional)
 
 
 
+Installation
 
-Run the Bot:
-python bot.py
+Clone the repository:git clone https://github.com/yourusername/DomainDriftBot.git
+
+
+Navigate to the directory:cd DomainDriftBot
+
+
+Install dependencies:pip install -r requirements.txt
+
+
+Create a .env file with your API keys (see .env.example).
+Run the bot:python bot.py
 
 
 
 Usage
 
-/start: Displays a welcome message.
-/login  : Authenticate using 19492 and Mani@2011.
-/scan : Perform reconnaissance on a domain (e.g., /scan example.com).
-/logout: End the session.
+Start the bot with /start.
+Scan a domain with /scan <domain> (e.g., /scan sytechlabs.com).
 
-Notes
+Files
 
-The bot uses a hardcoded WHOISXMLAPI key for WHOIS lookups.
-VirusTotal API key is optional; without it, threat intelligence is unavailable.
-Move the project to a local directory (C:\Users\spmte\Projects\bot) to avoid OneDrive sync issues.
+bot.py: Main bot logic and Telegram integration.
+recon.py: Domain reconnaissance functions.
+.env.example: Template for environment variables.
+
+License
+[MIT License] - Feel free to modify and distribute.
+Contact
+
+YouTube Video: [Link to your video, e.g., https://youtu.be/xyz123]
+GitHub: yourusername
+Feedback: Comment on the video or open an issue here!
+
+Future Plans
+
+Enhance API integrations.
+Add more reconnaissance features.
+Open to collaboration—let me know!
