@@ -67,7 +67,7 @@ python bot.py
 - `.env.example`: Template for environment variables.
 
 ## License
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 - **YouTube Video**: [Watch here](https://youtu.be/wBUzmk0WUpE)
