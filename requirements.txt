@@ -1,0 +1,7 @@
+python-telegram-bot>=21.0
+requests
+urllib3
+beautifulsoup4
+cachetools
+python-dotenv
+dnspython
