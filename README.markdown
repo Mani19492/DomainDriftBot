@@ -1,7 +1,7 @@
 # DomainDriftBot
 
 ## Overview
-DomainDriftBot is a Python-based Telegram bot I developed in 2025 for domain reconnaissance and authenticity verification. It scans domains, providing detailed reports including WHOIS data, DNS records, SSL certificates, and security checks using VirusTotal and Google Safe Browsing APIs.
+DomainDriftBot is a Python-based Telegram bot developed in 2025 for domain reconnaissance and authenticity verification. It scans domains and provides detailed reports, including WHOIS data, DNS records, SSL certificates, and security checks using VirusTotal and Google Safe Browsing APIs.
 
 ## Features
 - **Domain Scanning**: Comprehensive reconnaissance with WHOIS, DNS, and traceroute data.
@@ -10,8 +10,14 @@ DomainDriftBot is a Python-based Telegram bot I developed in 2025 for domain rec
 - **Real-Time Updates**: Dynamic reporting via Telegram.
 
 ## Prerequisites
-- Python 3.8+
-- Required libraries: `python-telegram-bot`, `requests`, `dns.resolver`, `beautifulsoup4`, `cachetools`, `python-dotenv`
+- Python 3.8 or higher
+- Required libraries:
+  - `python-telegram-bot`
+  - `requests`
+  - `dns.resolver`
+  - `beautifulsoup4`
+  - `cachetools`
+  - `python-dotenv`
 - API Keys:
   - Telegram Bot Token
   - VirusTotal API Key
@@ -20,22 +26,36 @@ DomainDriftBot is a Python-based Telegram bot I developed in 2025 for domain rec
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/DomainDriftBot.git
-   ```
+
+```bash
+git clone https://github.com/Mani19492/DomainDriftBot.git
+```
+
 2. Navigate to the directory:
-   ```bash
-   cd DomainDriftBot
-   ```
+
+```bash
+cd DomainDriftBot
+```
+
 3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Create a `.env` file with your API keys (see `.env.example`).
-5. Run the bot:
-   ```bash
-   python bot.py
-   ```
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Copy `.env.example` to `.env` and add your API keys:
+
+```bash
+cp .env.example .env
+```
+
+5. Edit `.env` to include your API keys (see `.env.example` for the required format).
+
+6. Run the bot:
+
+```bash
+python bot.py
+```
 
 ## Usage
 - Start the bot with `/start`.
@@ -47,14 +67,14 @@ DomainDriftBot is a Python-based Telegram bot I developed in 2025 for domain rec
 - `.env.example`: Template for environment variables.
 
 ## License
-[MIT License] - Feel free to modify and distribute.
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact
-- YouTube Video: [Link to your video, e.g., https://youtu.be/wBUzmk0WUpE]
-- GitHub: [Mani19492](https://github.com/Mani19492)
-- Feedback: Comment on the video or open an issue here!
+- **YouTube Video**: [Watch here](https://youtu.be/wBUzmk0WUpE)
+- **GitHub**: [Mani19492](https://github.com/Mani19492)
+- **Feedback**: Comment on the YouTube video or open an issue on GitHub.
 
 ## Future Plans
 - Enhance API integrations.
 - Add more reconnaissance features.
-- Open to collaboration—let me know!
+- Open to collaboration—reach out with ideas!
