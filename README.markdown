@@ -154,3 +154,9 @@ Love what DomainDriftBot can do? Want to make it even better? Open an issue, sub
 - [GitHub Issues](https://github.com/Mani19492/DomainDriftBot/issues)
 
 Let’s secure the web together! 🔐
+
+## 🔐 Security Notice
+
+This tool is intended strictly for educational and ethical security research.
+Do not use it for unauthorized scanning or malicious activities.
+
